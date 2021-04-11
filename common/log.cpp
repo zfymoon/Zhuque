@@ -6,12 +6,10 @@
 #include "utils.cpp"
 #include <thread>
 namespace Log{
-
     enum Level{
         DEBUG = 0,
         ERROR
     };
-
     void printLog(Level level,const std::string & tag, const std::string & message){
 
         std::string timeTAG =  Util::getCurrentTime();

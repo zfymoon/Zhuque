@@ -1,27 +1,11 @@
 #include "./common/log.cpp"
 #include "./net/tcpclient.cpp"
 #include "./net/tcpexample.cpp"
+#include "./net/socket.cpp"
 
 int main(){
 
-
-    std::thread task([](){
-
-        std::this_thread::sleep_for(std::chrono::seconds(2));
-        startClient();
-    });
-
-    std::thread task2([](){
-
-        std::this_thread::sleep_for(std::chrono::seconds(2));
-        startClient();
-    });
-    startServer();
-
-
-
-
-
+    Log::d("Socket","Local IP is "+Socket::getLocalIP());
 
     return 0;
 }
