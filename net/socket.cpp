@@ -28,6 +28,7 @@ namespace Socket{
                     char buffer[NI_MAXHOST];
                     if(getsockname(tmpFD,(sockaddr *)&clientAddr,(socklen_t *)&length) >= 0){
                         inet_ntop(AF_INET,&clientAddr.sin_addr,buffer,NI_MAXHOST);
+                        close(tmpFD);
                         return std::string(buffer);
                     }
                 }
