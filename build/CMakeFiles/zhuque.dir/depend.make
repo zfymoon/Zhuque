@@ -4,6 +4,7 @@
 CMakeFiles/zhuque.dir/main.cpp.o: ../common/log.cpp
 CMakeFiles/zhuque.dir/main.cpp.o: ../common/utils.cpp
 CMakeFiles/zhuque.dir/main.cpp.o: ../main.cpp
+CMakeFiles/zhuque.dir/main.cpp.o: ../net/socket.cpp
 CMakeFiles/zhuque.dir/main.cpp.o: ../net/tcpclient.cpp
 CMakeFiles/zhuque.dir/main.cpp.o: ../net/tcpexample.cpp
 

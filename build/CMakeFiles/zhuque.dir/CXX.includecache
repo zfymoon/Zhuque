@@ -35,6 +35,22 @@ sstream
 /home/curie/studio/zhuque/net/tcpclient.cpp
 ./net/tcpexample.cpp
 /home/curie/studio/zhuque/net/tcpexample.cpp
+./net/socket.cpp
+/home/curie/studio/zhuque/net/socket.cpp
+
+/home/curie/studio/zhuque/net/socket.cpp
+unistd.h
+-
+string
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+../common/log.cpp
+/home/curie/studio/zhuque/common/log.cpp
 
 /home/curie/studio/zhuque/net/tcpclient.cpp
 iostream
