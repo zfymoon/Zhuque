@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/curie/studio/zhuque/build",
+  "command": "/bin/c++    -g   -std=gnu++11 -o CMakeFiles/zhuque.dir/main.cpp.o -c /home/curie/studio/zhuque/main.cpp",
+  "file": "/home/curie/studio/zhuque/main.cpp"
+}
+]

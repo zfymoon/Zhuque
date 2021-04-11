@@ -1,0 +1,1 @@
+/bin/c++  -g   CMakeFiles/zhuque.dir/main.cpp.o  -o zhuque  -lpthread 

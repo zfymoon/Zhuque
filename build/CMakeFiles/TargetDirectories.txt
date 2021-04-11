@@ -1,0 +1,3 @@
+/home/curie/studio/zhuque/build/CMakeFiles/rebuild_cache.dir
+/home/curie/studio/zhuque/build/CMakeFiles/edit_cache.dir
+/home/curie/studio/zhuque/build/CMakeFiles/zhuque.dir
