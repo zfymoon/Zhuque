@@ -31,22 +31,8 @@ sstream
 /home/curie/studio/zhuque/main.cpp
 ./common/log.cpp
 /home/curie/studio/zhuque/common/log.cpp
-./net/socket.cpp
-/home/curie/studio/zhuque/net/socket.cpp
 thread
 -
-
-/home/curie/studio/zhuque/net/socket.cpp
-unistd.h
+vector
 -
-string
--
-sys/socket.h
--
-arpa/inet.h
--
-netdb.h
--
-../common/log.cpp
-/home/curie/studio/zhuque/common/log.cpp
 
